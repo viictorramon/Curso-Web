@@ -1,2 +1,2 @@
-# Curso-WEB
+# Curso-Web
  Repositório curso Softblue
