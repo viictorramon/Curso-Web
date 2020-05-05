@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form method="GET" action="?">
+        <label>Nome: </label>
+        <input type="text" name="campoNome" placeholder="Insira seu nome...">
+        <br>
+        <label>Idade: </label>
+        <input type="number" name="campoIdade" min="0" max="115">
+        <br>
+        <label>Sexo: </label>
+        <input type="radio" name="campoSexo" value="M"> Masculino
+        <input type="radio" name="campoSexo" value="F"> Feminino
+
+        <br>
+        <label>Estado Civil: </label>
+        <select name="campoEstadoCivil" id="">
+            <option value="" disabled selected hidden> </option>
+            <option value="S">Solteiro(a)</option>
+            <option value="C">Casado(a)</option>
+            <option value="D">Divorciado(a)</option>
+            <option value="V">Viuvo(a)</option>
+        </select>
+        
+        
+        <br>
+        <label>Interesses: </label>
+        <br>
+        <input type="checkbox" name="campoAuto"> Automovéis
+        <br>
+        <input type="checkbox" name="campoBarco"> Barcos
+        <br>
+        <input type="checkbox" name="campoAviao"> Avião
+        <br>
+        
+        <input type="submit">
+        <input type="reset" value="Cancelar">
+    </form>
+
+    <br>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
