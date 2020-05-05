@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens, vídeos, listas e tabelas</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+
+    <img src="imagemEnfeite.jpg" alt="Prateleira de livros"> <!-- atributo alt cataloga a img caso de consulta do buscador Google-->
+       
+    <figure> <!-- ideal para imagem que está relacionada ao texto na página -->
+        <a href="http://www.youtube.com/user/softbluecursos">
+        <img src="sbv2_brasilMap.png">
+        </a>
+        <figcaption>Softblue: de Curitiba para o Brasil</figcaption>
+    </figure>
+
+    <h1>Vídeos</h1>
+    
+    <video width="320" height="180" controls>
+        <source src="seuVideo.mp4" type="video/mp4">
+            Seu navegador não suporta esse vídeo.
+    </video>
+    
+    <br>
+    <iframe width="320" height="180" src="https://www.youtube.com/embed/85Mi_bRZyA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Listas</h1>
+    
+    <ul> <!-- não numerado -->
+        <li>Html</li>
+            <ul>
+                <li>Marcações</li>
+                <li>Criação de links</li>
+            </ul>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Ajax</li>
+    </ul>
+
+    <ol>
+        <li>Ferrari</li>
+        <li>McLaren</li>
+        <li>Red Bull</li>
+    </ol>
+
+    <table border="1">
+        <caption>Relatório dos pilotos da F1</caption> <!--Legenda para tabela-->
+        <tr>
+            <th>Piloto</th>
+            <th>Pontuação</th>
+            <th>Equipe</th>
+        </tr>
+        <tr>
+            <td>Lewis</td>
+            <td>54</td>
+            <td>McLaren</td>
+        </tr>
+        <tr>
+            <td>Nico</td>
+            <td>47</td>
+            <td rowspan="2">Ferrari</td>
+        </tr>
+        <tr>
+            <td>Vettel</td>
+            <td>37</td>
+        </tr>
+        <tr>
+            <td>Verstappen</td>
+            <td>39</td>
+            <td>Red Bull</td>
+        </tr>
+        <tr>
+            <td colspan="2">DESCLASSIFICADO</td>
+            <td>Honda</td>
+        </tr>
+    </table>
+
+    <br>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
